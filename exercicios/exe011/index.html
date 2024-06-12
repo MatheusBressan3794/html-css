@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>abra esse site em dispositivos diferentes (celular, tv, computadore etc)</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/fotopequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/fotomedia.png" type="image/png">
+        <img src="imagens/fotogrande.png" alt="">
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>escute esse audio</p>
+    <audio src="midia/Immortal - NEFFEX.mp3" preload="metadata" controls autoplay></audio>
+
+    <p>escute o pod cast</p>
+
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    <p>Infelismente seu navegador não consegue reproduzir o audio <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" target="_blank">clique aqui para baixar o audio</a></p>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cyan;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgba(44, 44, 95, 0.815);
+            padding: 3px;
+            box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.527);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            padding: 2px;
+            margin-right: 30px;
+            font-weight: bolder;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.356);
+        }
+        main > section > article{
+            padding: 10px;
+        }
+        article{
+            background-color: chartreuse;
+            padding: 2px;
+        }
+        footer{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="assunto">
+
+        </section>
+
+        <section id="noticias">
+
+            <article>
+
+                <h2>Notícias do mundo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iusto molestias quibusdam, architecto reiciendis minus accusamus quasi voluptatum! Perferendis non qui expedita nam distinctio. Laborum nemo porro rerum suscipit est.</p>
+                <aside>
+                    <p>Escrito por Matheus Bressan</p>
+                </aside>
+
+            </article>
+
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum hic nihil, rem corporis ratione deserunt asperiores sit accusantium dicta eligendi ipsum maiores sapiente, neque corrupti laboriosam laborum eveniet! Nam.</p>
+    </footer>
+</body>
+</html>
