@@ -37,7 +37,7 @@ header{
     padding-top: 30px;
 }
 
-header  p{
+header > p{
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     color: white;
