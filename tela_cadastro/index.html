@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="dados">
+        <h1>Cadastro</h1>
+        <div class="coluna">
+            <div class="lado1">
+                <label for="email">E-mail</label>
+                <input type="email">
+            </div>
+
+            <div class="lado2">
+                <label for="date">Crie uma senha</label>
+                <input type="password">
+            </div>
+        </div>
+
+        <div class="coluna">
+            <div class="lado1">
+                <input type="email" placeholder="Repetir E-mail">
+            </div>
+
+            <div class="lado2">
+                <input type="password" placeholder="Repetir a senha">
+            </div>
+        </div>
+
+            <h3 class="flex-item">Dados cadastrais</h3>
+
+            <div class="coluna">
+                <div class="lado1">
+                    <input type="radio">
+                    <label for="pessoaFisica">Pessoa Física</label>
+                </div>
+                <div class="lado2">
+                    <input type="radio">
+                    <label for="pessoaJuridica">Pessoa Jurídica</label>
+                </div>
+            </div>
+
+        <div class="coluna">
+            <div class="lado1">
+                <input type="text" placeholder="Nome">
+            </div>
+
+            <div class="lado2">
+                <input type="text" placeholder="Sobrenome">
+            </div>
+        </div>
+
+        <div class="coluna">
+            <div class="lado1">
+                <select name="sexo">
+                    <option disabled selected>Selecione o seu sexo</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                </select>
+            </div>
+
+            <div class="lado2">
+                <input type="text" placeholder="CPF">
+            </div>
+        </div>
+        <div class="coluna">
+            <div class="lado1">
+                <label for="Telefone">Telefone</label>
+                <input type="tel">
+            </div>
+
+            <div class="lado2">
+                <label for="">Nascimento</label>
+                <input type="date">
+            </div>
+        </div>
+
+        <h3>Endereço de entrega</h3>
+        <div class="coluna">
+            <div class="lado1">
+                <input type="text" placeholder="Estado">
+            </div>
+
+            <div class="lado2">
+                <input type="text" placeholder="Cidade">
+            </div>
+        </div>
+        
+        <div class="coluna">
+            <div class="lado1">
+                <input type="number" placeholder="CEP">
+            </div>
+
+            <div class="lado2">
+                <input type="number" placeholder="Número da casa">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

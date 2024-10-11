@@ -1,0 +1,92 @@
+:root {
+    --cor1: #1D2540;
+    --cor2: #32593C;
+    --cor3: #F2CB05;
+    --cor4: #F2DC6B;
+    --cor5: #F2E6A7;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    text-align: justify;
+    padding: 4px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor5);
+}
+
+header {
+    background-color: var(--cor1);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+header > h1 {
+    color: white;
+    padding-top: 85px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    background-color: var(--cor3);
+}
+
+#titulo {
+    background-color: var(--cor4);
+    padding: 40px;
+    text-align: center;
+    width: 100%; /* Ajusta para ocupar a largura total do main */
+    height: 30px;
+}
+
+.box {
+    background-color: white;
+    color: green;
+    display: flex;
+    flex-direction: column; /* Coloca os elementos na vertical */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    width: 300px;
+    height: 380px;
+    margin: 70px;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+}
+
+.box img {
+    width: 250px;
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona borda arredondada às imagens */
+    object-fit: cover; /* Garante que a imagem não fique distorcida */
+    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+}
+
+footer {
+    background-color: var(--cor1);
+    color: white;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #F2CB05;
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(unnamed.png);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(unnamed.png);
+    background-size: cover;
+    background-position: 50%;
+    padding: 20px;
+}
+
+.lado1{
+    margin-left: 20px;
+}
+
+.lado2{
+    margin-left: 70px;
+}
+
+.dados{
+    background-color: white;
+    border-radius: 20px;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+}
+
+.coluna{
+    width: 250px;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+input{
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+select{
+    width: 240px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+
+
+.radio-group {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
